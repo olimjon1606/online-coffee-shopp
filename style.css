@@ -140,83 +140,7 @@ section{
     z-index: 1 !important;
     transition: .25s;
 }
-.header .navbar ul li:nth-child(1).active1 ~ #marker::before,
-.header .navbar ul li:nth-child(1).active1 ~ #marker2::before{
-    box-shadow: 0 0 15px #5da6ff,
-                0 0 30px #5da6ff,
-                0 0 45px #5da6ff,
-                0 0 60px #5da6ff,
-                0 0 120px #5da6ff,
-                0 0 200px #5da6ff,
-                0 0 240px #5da6ff;
-    background: #5da6ff;
-}
-.navbar ul li:nth-child(2).active1 ~ #marker::before,
-.header .navbar ul li:nth-child(2).active1 ~ #marker2::before{
-    box-shadow: 0 0 15px #0f0,
-                0 0 30px #0f0,
-                0 0 45px #0f0,
-                0 0 60px #0f0,
-                0 0 120px #0f0,
-                0 0 200px #0f0,
-                0 0 240px #0f0;
-    background: #0f0 ;
-}
-ul li:nth-child(3).active1 ~ #marker::before,
-.header .navbar ul li:nth-child(3).active1 ~ #marker2::before{
-    box-shadow: 0 0 15px #ff0,
-                0 0 30px #ff0,
-                0 0 45px #ff0,
-                0 0 60px #ff0,
-                0 0 120px #ff0,
-                0 0 200px #ff0,
-                0 0 240px #ff0;
-    background: #ff0 ;
-}
-ul li:nth-child(4).active1 ~ #marker::before,
-.header .navbar ul li:nth-child(4).active1 ~ #marker2::before{
-    box-shadow: 0 0 15px #df2fff,
-                0 0 30px #df2fff,
-                0 0 45px #df2fff,
-                0 0 60px #df2fff,
-                0 0 120px #df2fff,
-                0 0 200px #df2fff,
-                0 0 240px #df2fff;
-    background: #df2fff ;
-}
-.header .navbar ul li:nth-child(5).active1 ~ #marker::before,
-.header .navbar ul li:nth-child(5).active1 ~ #marker2::before{
-    box-shadow: 0 0 15px #ff308f,
-                0 0 30px #ff308f,
-                0 0 45px #ff308f,
-                0 0 60px #ff308f,
-                0 0 120px #ff308f,
-                0 0 200px #ff308f,
-                0 0 240px #ff308f;
-    background: #ff308f ;
-}
-.header .navbar ul li:nth-child(6).active1 ~ #marker::before,
-.header .navbar ul li:nth-child(6).active1 ~ #marker2::before{
-    box-shadow: 0 0 15px #0ff,
-                0 0 30px #0ff,
-                0 0 45px #0ff,
-                0 0 60px #0ff,
-                0 0 120px #0ff,
-                0 0 200px #0ff,
-                0 0 240px #0ff;
-    background: #0ff ;
-}
-.header .navbar ul li:nth-child(7).active1 ~ #marker::before,
-.header .navbar ul li:nth-child(7).active1 ~ #marker2::before{
-    box-shadow: 0 0 15px #ff0000,
-                0 0 30px #ff0000,
-                0 0 45px #ff0000,
-                0 0 60px #ff0000,
-                0 0 120px #ff0000,
-                0 0 200px #ff0000,
-                0 0 240px #ff0000;
-    background: #ff0000 ;
-}
+
 .header .icons div{
     color: #fff;
     cursor: pointer;
@@ -228,7 +152,7 @@ ul li:nth-child(4).active1 ~ #marker::before,
                 0 0 200px #fff;
 }
 .header .icons div:hover{
-    color: var(--main-color);
+    /* color: var(--main-color); */
 }
 
 #menu-btn{
@@ -377,10 +301,6 @@ ul li:nth-child(4).active1 ~ #marker::before,
 .about .row .content h3{
     font-size: 3rem;
     color: #fff;
-    text-shadow: 0 0 15px var(--main-color),
-                0 0 50px var(--main-color),
-                0 0 100px var(--main-color),
-                0 0 200px var(--main-color);
     animation: animateBackgroundColor 3s linear infinite;
 
 }
@@ -389,11 +309,6 @@ ul li:nth-child(4).active1 ~ #marker::before,
     color: #ccc;
     padding: 1rem 0;
     line-height: 1.8;
-    text-shadow: 0 0 15px var(--main-color),
-                0 0 50px var(--main-color),
-                0 0 100px var(--main-color),
-                0 0 200px var(--main-color);
-    animation: animateBackgroundColor 3s linear infinite;
 }
 
 .menu .box-container {
@@ -425,33 +340,6 @@ ul li:nth-child(4).active1 ~ #marker::before,
     font-size: 1.5rem;
     text-decoration: line-through;
 }
-.menu .box-container .box:hover{
-    background: var(--main-color);
-    border-radius: 10px;
-    animation: animateBackgroundColor 3s linear infinite;
-    box-shadow: 0 0 15px var(--main-color),
-                0 0 30px var(--main-color);
-}
-@keyframes animateBackgroundColor{
-    0%{
-        filter: hue-rotate(0deg)
-    }
-    100%{
-        filter: hue-rotate(360deg)
-    }
-}
-.menu .box-container .box:hover .btn{
-    background: #fff ;
-    border-radius: 10px;
-}
-.menu .box-container .box:hover >*{
-    color: var(--black);
-    text-shadow: 0 0 15px var(--main-color),
-                0 0 50px var(--main-color),
-                0 0 100px var(--main-color),
-                0 0 200px var(--main-color);
-}
-
 
 
 .products .box-container{
@@ -478,13 +366,7 @@ ul li:nth-child(4).active1 ~ #marker::before,
     margin: .3rem;
     box-shadow: 0 0 15px #13131a;
 }
-.products .box-container .box .icons a:hover{
-    background: var(--main-color);
-    animation: animateBackgroundColor 3s linear infinite;
-    box-shadow: 0 0 15px var(--main-color),
-                0 0 30px var(--main-color);
-                border-radius: 10px;
-}
+
 .products .box-container .box .image{
     padding: 2.5rem 0;
 }
@@ -506,11 +388,6 @@ ul li:nth-child(4).active1 ~ #marker::before,
 }
 .stars i{
     color: var(--main-color);
-    text-shadow: 0 0 15px var(--main-color),
-                0 0 50px var(--main-color),
-                0 0 100px var(--main-color),
-                0 0 200px var(--main-color);
-    animation: animateBackgroundColor 3s linear infinite;
 }
 .products .box-container .box .content .price{
     color: #fff;
@@ -537,12 +414,7 @@ ul li:nth-child(4).active1 ~ #marker::before,
 .review .box-container .box:hover{
     transform: scale(1.1);
 }
-.review .box-container .box:hover p,.review .box-container .box:hover h3{
-    transform: scale(1.05);
-    text-shadow: 0 0 15px var(--main-color),
-                0 0 50px var(--main-color);
-    
-}
+
 .review .box-container .box p{
     font-size: 1.5rem;
     line-height: 1.8;
