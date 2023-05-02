@@ -703,7 +703,6 @@ section{
                     0 0 200px var(--main-color);
         animation: none;
     }
-    
 }
 @media (max-width:450px){
     html{
