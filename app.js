@@ -30,7 +30,6 @@ window.onscroll = () =>{
 let marker = document.querySelector('#marker');
 let list = document.querySelectorAll('ul li ');
 let marker2 = document.querySelector('#marker2')
-
 function moveIndicator(e){
     marker.style.left = e.offsetLeft+'px';
     marker.style.right = e.offsetRight+'px';
