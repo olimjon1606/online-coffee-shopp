@@ -21,8 +21,6 @@ document.querySelector('#cart-btn').onclick = () =>{
     navbar.classList.remove('active');
     searchForm.classList.remove('active');
 }
-
-
 window.onscroll = () =>{
     navbar.classList.remove('active');
     searchForm.classList.remove('active');
@@ -47,7 +45,6 @@ list.forEach(link =>{
         moveIndicator(e.target)
     })
 })
-
 function activeLink(){
     list.forEach((item) =>
     item.classList.remove('active1'));
