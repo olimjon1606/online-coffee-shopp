@@ -822,9 +822,9 @@ section {
     color: #fff;
     /* border-radius: 50%; */
     
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 0px;
-    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 20px;
     border-top-right-radius: 50px;
     
 }
