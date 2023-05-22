@@ -794,7 +794,6 @@ section {
     .review .box-container .box:hover h3 {
         transform: scale(1.05);
         text-shadow: none;
-
     }
 
     .stars i {
