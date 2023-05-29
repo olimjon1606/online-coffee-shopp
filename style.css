@@ -302,15 +302,7 @@ section {
     animation: ripple 1s linear infinite;
     border-radius: 10px;
 }
-@keyframes ripple {
-    0% {
-        box-shadow: 0 0 0 0 rgba(211, 173, 127, 0.7), 0 0 0 12px rgba(161, 116, 60, 0.4);
-    }
 
-    100% {
-        box-shadow: 0 0 0 12px rgba(161, 116, 60, 0.4), 0 0 0 24px rgba(19, 183, 72, 0);
-    }
-}
 .about .row {
     display: flex;
     align-items: center;
