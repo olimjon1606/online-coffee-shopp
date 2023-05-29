@@ -815,12 +815,10 @@ section {
     background-color: rgb(0, 128, 0);
     animation: ripple2 1s linear infinite;
 }
-
 @keyframes ripple2 {
     0% {
         box-shadow: 0 0 0 0 rgba(0, 128, 0, 0.7), 0 0 0 12px rgba(0, 128, 0, 0.4);
     }
-
     100% {
         box-shadow: 0 0 0 12px rgba(0, 128, 0, 0.4), 0 0 0 24px rgba(0, 128, 0, 0);
     }
