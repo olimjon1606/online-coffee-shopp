@@ -40,6 +40,7 @@ list.forEach(link => {
         moveIndicator(e.target)
     })
 })
+
 function activeLink() {
     list.forEach((item) =>
         item.classList.remove('active1'));
