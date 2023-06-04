@@ -40,6 +40,7 @@ function moveIndicator(e) {
     marker2.style.bottom = e.offsetBottom + 'px';
     marker2.style.width = e.offsetWidth + 'px';
 }
+
 list.forEach(link => {
     link.addEventListener('mousemove', (e) => {
         moveIndicator(e.target)
