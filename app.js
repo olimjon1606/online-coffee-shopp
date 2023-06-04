@@ -24,6 +24,7 @@ window.onscroll = () => {
     searchForm.classList.remove('active');
     cartItem.classList.remove('active');
 }
+
 let marker = document.querySelector('#marker');
 let list = document.querySelectorAll('ul li ');
 let marker2 = document.querySelector('#marker2')
