@@ -12,7 +12,6 @@ document.querySelector('#search-btn').onclick = () => {
     cartItem.classList.remove('active');
 }
 
-
 let cartItem = document.querySelector('.card-items-container');
 
 document.querySelector('#cart-btn').onclick = () => {
