@@ -1,10 +1,14 @@
 let navbar = document.querySelector('.navbar');
+let col = document.querySelector('.color');
 
 function message() {
     alert("This product added to your cart!");
+    col.classList.toggle("col")
+    console.log(col.classList)
 }
 function message2() {
     alert("This product added to favourites!");
+    col.classList.toggle("col")
 }
 function cart() {
     navbar.classList.toggle('active');
