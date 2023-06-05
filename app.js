@@ -1,7 +1,10 @@
 let navbar = document.querySelector('.navbar');
 
-function message(){
+function message() {
     alert("This product added to your cart!");
+}
+function message2() {
+    alert("This product added to favourites!");
 }
 function cart() {
     navbar.classList.toggle('active');
@@ -57,4 +60,16 @@ function activeLink() {
     this.classList.add('active1');
     list.forEach((item) =>
         item.addEventListener('mouseover', activeLink));
+}
+function cardclick() {
+    var paylike = Paylike('your key');
+    paylike.popup({
+        currency: 'DKK',
+        amount: 1000,
+    }, function (err, res) {
+        if (err)
+            return console.log(err);
+        console.log(res.transaction.id);
+        alert('Thank you!');
+    });
 }
