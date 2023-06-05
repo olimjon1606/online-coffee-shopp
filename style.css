@@ -394,7 +394,7 @@ section {
 
 }
 
-.products .box-container .box .icons a {
+.products .box-container .box .icons i {
     height: 5rem;
     width: 5rem;
     line-height: 5rem;
@@ -404,6 +404,7 @@ section {
     border-radius: 8px;
     margin: .3rem;
     box-shadow: 0 0 15px #13131a;
+    cursor: pointer;
 }
 
 .products .box-container .box .image {
