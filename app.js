@@ -1,5 +1,8 @@
 let navbar = document.querySelector('.navbar');
 
+function message(){
+    alert("This product added to your cart!");
+}
 function cart() {
     navbar.classList.toggle('active');
     searchForm.classList.remove('active');
