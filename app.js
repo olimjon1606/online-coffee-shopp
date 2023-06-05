@@ -1,8 +1,5 @@
 let navbar = document.querySelector('.navbar');
 
-// document.querySelector('#menu-btn').onclick = () => {
-
-// }
 function cart() {
     navbar.classList.toggle('active');
     searchForm.classList.remove('active');
