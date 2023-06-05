@@ -842,4 +842,12 @@ section {
 .log{
     margin-left: 30px;
     margin-bottom: 10px;
+    /* margin-top: 1rem; */
+    display: inline-block;
+    padding: .9rem 3rem !important;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--main-color);
+    cursor: pointer;
+    border-radius: 6px;
 }
