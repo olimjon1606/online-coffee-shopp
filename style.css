@@ -406,6 +406,9 @@ section {
     box-shadow: 0 0 15px #13131a;
     cursor: pointer;
 }
+.products .box-container .box .icons i:hover{
+    color: var(--main-color);
+}
 
 .products .box-container .box .image {
     padding: 2.5rem 0;
